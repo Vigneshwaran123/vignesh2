@@ -1,6 +1,6 @@
-a=int(input())
-b=int(input())
-if (a,b<=10000):
-    for i in range(a,b):
-        if(i%2==0):
-            print(i)
+i,j=input().split()
+i=int(i)+1
+j=int(j)
+for a in range(i,j):
+    if(a%2==0):
+        print(a,end=" ")
